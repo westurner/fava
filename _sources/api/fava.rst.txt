@@ -1,0 +1,45 @@
+fava
+====
+
+.. automodule:: fava
+
+fava.application
+----------------
+
+.. automodule:: fava.application
+
+fava.cli
+--------
+
+.. automodule:: fava.cli
+
+fava.context
+------------
+
+.. automodule:: fava.context
+
+fava.helpers
+------------
+
+.. automodule:: fava.helpers
+
+fava.internal_api
+-----------------
+
+.. automodule:: fava.internal_api
+
+fava.json_api
+-------------
+
+.. automodule:: fava.json_api
+
+fava.serialisation
+------------------
+
+.. automodule:: fava.serialisation
+
+fava.template_filters
+---------------------
+
+.. automodule:: fava.template_filters
+

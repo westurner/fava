@@ -1,0 +1,784 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>API Documentation &#8212; Fava  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="fava" href="api/fava.html" />
+    <link rel="prev" title="Development" href="development.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="api-documentation">
+<h1>API Documentation<a class="headerlink" href="#api-documentation" title="Permalink to this heading">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There’s no stability guarantee as this is just for internal purposes currently.</p>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api/fava.html">fava</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.html#module-fava.application">fava.application</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.app"><code class="docutils literal notranslate"><span class="pre">app</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.account"><code class="docutils literal notranslate"><span class="pre">account()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.document"><code class="docutils literal notranslate"><span class="pre">document()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.download_journal"><code class="docutils literal notranslate"><span class="pre">download_journal()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.download_query"><code class="docutils literal notranslate"><span class="pre">download_query()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.extension_report"><code class="docutils literal notranslate"><span class="pre">extension_report()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.fava_api_exception"><code class="docutils literal notranslate"><span class="pre">fava_api_exception()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.get_locale"><code class="docutils literal notranslate"><span class="pre">get_locale()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.help_page"><code class="docutils literal notranslate"><span class="pre">help_page()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.holdings_by"><code class="docutils literal notranslate"><span class="pre">holdings_by()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.index"><code class="docutils literal notranslate"><span class="pre">index()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.jump"><code class="docutils literal notranslate"><span class="pre">jump()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.ledger_slug"><code class="docutils literal notranslate"><span class="pre">ledger_slug()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.report"><code class="docutils literal notranslate"><span class="pre">report()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.statement"><code class="docutils literal notranslate"><span class="pre">statement()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.static_url"><code class="docutils literal notranslate"><span class="pre">static_url()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.template_context"><code class="docutils literal notranslate"><span class="pre">template_context()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.translations"><code class="docutils literal notranslate"><span class="pre">translations()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.update_ledger_slugs"><code class="docutils literal notranslate"><span class="pre">update_ledger_slugs()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.application.url_for"><code class="docutils literal notranslate"><span class="pre">url_for()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.html#module-fava.cli">fava.cli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.html#module-fava.context">fava.context</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.context.Context"><code class="docutils literal notranslate"><span class="pre">Context</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.context.Context.beancount_file_slug"><code class="docutils literal notranslate"><span class="pre">Context.beancount_file_slug</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.context.Context.conversion"><code class="docutils literal notranslate"><span class="pre">Context.conversion</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.context.Context.filtered"><code class="docutils literal notranslate"><span class="pre">Context.filtered</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.context.Context.interval"><code class="docutils literal notranslate"><span class="pre">Context.interval</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.context.Context.ledger"><code class="docutils literal notranslate"><span class="pre">Context.ledger</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.html#module-fava.helpers">fava.helpers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.helpers.BeancountError"><code class="docutils literal notranslate"><span class="pre">BeancountError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.helpers.FavaAPIException"><code class="docutils literal notranslate"><span class="pre">FavaAPIException</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.html#module-fava.internal_api">fava.internal_api</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.internal_api.ChartApi"><code class="docutils literal notranslate"><span class="pre">ChartApi</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.ChartApi.account_balance"><code class="docutils literal notranslate"><span class="pre">ChartApi.account_balance()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.ChartApi.hierarchy"><code class="docutils literal notranslate"><span class="pre">ChartApi.hierarchy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.ChartApi.interval_totals"><code class="docutils literal notranslate"><span class="pre">ChartApi.interval_totals()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.ChartApi.net_worth"><code class="docutils literal notranslate"><span class="pre">ChartApi.net_worth()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.internal_api.ChartData"><code class="docutils literal notranslate"><span class="pre">ChartData</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.ChartData.data"><code class="docutils literal notranslate"><span class="pre">ChartData.data</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.ChartData.label"><code class="docutils literal notranslate"><span class="pre">ChartData.label</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.ChartData.type"><code class="docutils literal notranslate"><span class="pre">ChartData.type</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData"><code class="docutils literal notranslate"><span class="pre">LedgerData</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.account_details"><code class="docutils literal notranslate"><span class="pre">LedgerData.account_details</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.accounts"><code class="docutils literal notranslate"><span class="pre">LedgerData.accounts</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.base_url"><code class="docutils literal notranslate"><span class="pre">LedgerData.base_url</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.currencies"><code class="docutils literal notranslate"><span class="pre">LedgerData.currencies</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.errors"><code class="docutils literal notranslate"><span class="pre">LedgerData.errors</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.extension_reports"><code class="docutils literal notranslate"><span class="pre">LedgerData.extension_reports</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.fava_options"><code class="docutils literal notranslate"><span class="pre">LedgerData.fava_options</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.have_excel"><code class="docutils literal notranslate"><span class="pre">LedgerData.have_excel</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.incognito"><code class="docutils literal notranslate"><span class="pre">LedgerData.incognito</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.links"><code class="docutils literal notranslate"><span class="pre">LedgerData.links</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.options"><code class="docutils literal notranslate"><span class="pre">LedgerData.options</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.other_ledgers"><code class="docutils literal notranslate"><span class="pre">LedgerData.other_ledgers</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.payees"><code class="docutils literal notranslate"><span class="pre">LedgerData.payees</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.precisions"><code class="docutils literal notranslate"><span class="pre">LedgerData.precisions</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.sidebar_links"><code class="docutils literal notranslate"><span class="pre">LedgerData.sidebar_links</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.tags"><code class="docutils literal notranslate"><span class="pre">LedgerData.tags</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.upcoming_events_count"><code class="docutils literal notranslate"><span class="pre">LedgerData.upcoming_events_count</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.user_queries"><code class="docutils literal notranslate"><span class="pre">LedgerData.user_queries</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.internal_api.LedgerData.years"><code class="docutils literal notranslate"><span class="pre">LedgerData.years</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.internal_api.get_ledger_data"><code class="docutils literal notranslate"><span class="pre">get_ledger_data()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.html#module-fava.json_api">fava.json_api</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.CommodityPairWithPrices"><code class="docutils literal notranslate"><span class="pre">CommodityPairWithPrices</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.json_api.CommodityPairWithPrices.base"><code class="docutils literal notranslate"><span class="pre">CommodityPairWithPrices.base</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.json_api.CommodityPairWithPrices.prices"><code class="docutils literal notranslate"><span class="pre">CommodityPairWithPrices.prices</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.json_api.CommodityPairWithPrices.quote"><code class="docutils literal notranslate"><span class="pre">CommodityPairWithPrices.quote</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.Context"><code class="docutils literal notranslate"><span class="pre">Context</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.json_api.Context.balances_after"><code class="docutils literal notranslate"><span class="pre">Context.balances_after</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.json_api.Context.balances_before"><code class="docutils literal notranslate"><span class="pre">Context.balances_before</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.json_api.Context.entry"><code class="docutils literal notranslate"><span class="pre">Context.entry</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.json_api.Context.sha256sum"><code class="docutils literal notranslate"><span class="pre">Context.sha256sum</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.json_api.Context.slice"><code class="docutils literal notranslate"><span class="pre">Context.slice</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.QueryResult"><code class="docutils literal notranslate"><span class="pre">QueryResult</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.json_api.QueryResult.chart"><code class="docutils literal notranslate"><span class="pre">QueryResult.chart</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.html#fava.json_api.QueryResult.table"><code class="docutils literal notranslate"><span class="pre">QueryResult.table</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.ValidationError"><code class="docutils literal notranslate"><span class="pre">ValidationError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.api_endpoint"><code class="docutils literal notranslate"><span class="pre">api_endpoint()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.delete_document"><code class="docutils literal notranslate"><span class="pre">delete_document()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_changed"><code class="docutils literal notranslate"><span class="pre">get_changed()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_commodities"><code class="docutils literal notranslate"><span class="pre">get_commodities()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_context"><code class="docutils literal notranslate"><span class="pre">get_context()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_documents"><code class="docutils literal notranslate"><span class="pre">get_documents()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_errors"><code class="docutils literal notranslate"><span class="pre">get_errors()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_events"><code class="docutils literal notranslate"><span class="pre">get_events()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_extract"><code class="docutils literal notranslate"><span class="pre">get_extract()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_imports"><code class="docutils literal notranslate"><span class="pre">get_imports()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_move"><code class="docutils literal notranslate"><span class="pre">get_move()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_payee_accounts"><code class="docutils literal notranslate"><span class="pre">get_payee_accounts()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_payee_transaction"><code class="docutils literal notranslate"><span class="pre">get_payee_transaction()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_query_result"><code class="docutils literal notranslate"><span class="pre">get_query_result()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.get_source"><code class="docutils literal notranslate"><span class="pre">get_source()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.json_err"><code class="docutils literal notranslate"><span class="pre">json_err()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.json_success"><code class="docutils literal notranslate"><span class="pre">json_success()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.put_add_document"><code class="docutils literal notranslate"><span class="pre">put_add_document()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.put_add_entries"><code class="docutils literal notranslate"><span class="pre">put_add_entries()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.put_attach_document"><code class="docutils literal notranslate"><span class="pre">put_attach_document()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.put_format_source"><code class="docutils literal notranslate"><span class="pre">put_format_source()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.put_source"><code class="docutils literal notranslate"><span class="pre">put_source()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.put_source_slice"><code class="docutils literal notranslate"><span class="pre">put_source_slice()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.json_api.validate_func_arguments"><code class="docutils literal notranslate"><span class="pre">validate_func_arguments()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.html#module-fava.serialisation">fava.serialisation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.serialisation.deserialise"><code class="docutils literal notranslate"><span class="pre">deserialise()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.serialisation.deserialise_posting"><code class="docutils literal notranslate"><span class="pre">deserialise_posting()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.serialisation.serialise"><code class="docutils literal notranslate"><span class="pre">serialise()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.html#module-fava.template_filters">fava.template_filters</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.balance_children"><code class="docutils literal notranslate"><span class="pre">balance_children()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.basename"><code class="docutils literal notranslate"><span class="pre">basename()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.collapse_account"><code class="docutils literal notranslate"><span class="pre">collapse_account()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.cost_or_value"><code class="docutils literal notranslate"><span class="pre">cost_or_value()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.flag_to_type"><code class="docutils literal notranslate"><span class="pre">flag_to_type()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.format_currency"><code class="docutils literal notranslate"><span class="pre">format_currency()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.format_date"><code class="docutils literal notranslate"><span class="pre">format_date()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.format_date_filter"><code class="docutils literal notranslate"><span class="pre">format_date_filter()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.get_or_create"><code class="docutils literal notranslate"><span class="pre">get_or_create()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.hash_entry"><code class="docutils literal notranslate"><span class="pre">hash_entry()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.remove_keys"><code class="docutils literal notranslate"><span class="pre">remove_keys()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.html#fava.template_filters.should_show"><code class="docutils literal notranslate"><span class="pre">should_show()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/fava.core.html">fava.core</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger"><code class="docutils literal notranslate"><span class="pre">FavaLedger</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.account_journal"><code class="docutils literal notranslate"><span class="pre">FavaLedger.account_journal()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.account_types"><code class="docutils literal notranslate"><span class="pre">FavaLedger.account_types</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.accounts"><code class="docutils literal notranslate"><span class="pre">FavaLedger.accounts</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.all_entries"><code class="docutils literal notranslate"><span class="pre">FavaLedger.all_entries</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.all_entries_by_type"><code class="docutils literal notranslate"><span class="pre">FavaLedger.all_entries_by_type</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.all_root_account"><code class="docutils literal notranslate"><span class="pre">FavaLedger.all_root_account</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.attributes"><code class="docutils literal notranslate"><span class="pre">FavaLedger.attributes</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.beancount_file_path"><code class="docutils literal notranslate"><span class="pre">FavaLedger.beancount_file_path</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.budgets"><code class="docutils literal notranslate"><span class="pre">FavaLedger.budgets</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.changed"><code class="docutils literal notranslate"><span class="pre">FavaLedger.changed()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.charts"><code class="docutils literal notranslate"><span class="pre">FavaLedger.charts</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.commodities"><code class="docutils literal notranslate"><span class="pre">FavaLedger.commodities</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.commodity_pairs"><code class="docutils literal notranslate"><span class="pre">FavaLedger.commodity_pairs()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.context"><code class="docutils literal notranslate"><span class="pre">FavaLedger.context()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.errors"><code class="docutils literal notranslate"><span class="pre">FavaLedger.errors</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.extensions"><code class="docutils literal notranslate"><span class="pre">FavaLedger.extensions</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.fava_options"><code class="docutils literal notranslate"><span class="pre">FavaLedger.fava_options</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.file"><code class="docutils literal notranslate"><span class="pre">FavaLedger.file</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.format_decimal"><code class="docutils literal notranslate"><span class="pre">FavaLedger.format_decimal</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.get_account_sign"><code class="docutils literal notranslate"><span class="pre">FavaLedger.get_account_sign()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.get_entry"><code class="docutils literal notranslate"><span class="pre">FavaLedger.get_entry()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.get_filtered"><code class="docutils literal notranslate"><span class="pre">FavaLedger.get_filtered()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.group_entries_by_type"><code class="docutils literal notranslate"><span class="pre">FavaLedger.group_entries_by_type()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.ingest"><code class="docutils literal notranslate"><span class="pre">FavaLedger.ingest</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.interval_balances"><code class="docutils literal notranslate"><span class="pre">FavaLedger.interval_balances()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.join_path"><code class="docutils literal notranslate"><span class="pre">FavaLedger.join_path()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.load_file"><code class="docutils literal notranslate"><span class="pre">FavaLedger.load_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.misc"><code class="docutils literal notranslate"><span class="pre">FavaLedger.misc</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.mtime"><code class="docutils literal notranslate"><span class="pre">FavaLedger.mtime</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.options"><code class="docutils literal notranslate"><span class="pre">FavaLedger.options</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.paths_to_watch"><code class="docutils literal notranslate"><span class="pre">FavaLedger.paths_to_watch()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.price_map"><code class="docutils literal notranslate"><span class="pre">FavaLedger.price_map</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.query_shell"><code class="docutils literal notranslate"><span class="pre">FavaLedger.query_shell</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FavaLedger.statement_path"><code class="docutils literal notranslate"><span class="pre">FavaLedger.statement_path()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#fava.core.FilteredLedger"><code class="docutils literal notranslate"><span class="pre">FilteredLedger</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FilteredLedger.account_is_closed"><code class="docutils literal notranslate"><span class="pre">FilteredLedger.account_is_closed()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FilteredLedger.end_date"><code class="docutils literal notranslate"><span class="pre">FilteredLedger.end_date</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FilteredLedger.entries"><code class="docutils literal notranslate"><span class="pre">FilteredLedger.entries</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FilteredLedger.filters"><code class="docutils literal notranslate"><span class="pre">FilteredLedger.filters</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FilteredLedger.interval_ends"><code class="docutils literal notranslate"><span class="pre">FilteredLedger.interval_ends()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FilteredLedger.ledger"><code class="docutils literal notranslate"><span class="pre">FilteredLedger.ledger</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FilteredLedger.prices"><code class="docutils literal notranslate"><span class="pre">FilteredLedger.prices()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FilteredLedger.root_account"><code class="docutils literal notranslate"><span class="pre">FilteredLedger.root_account</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FilteredLedger.root_tree"><code class="docutils literal notranslate"><span class="pre">FilteredLedger.root_tree</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.FilteredLedger.root_tree_closed"><code class="docutils literal notranslate"><span class="pre">FilteredLedger.root_tree_closed</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#fava.core.Filters"><code class="docutils literal notranslate"><span class="pre">Filters</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.Filters.account"><code class="docutils literal notranslate"><span class="pre">Filters.account</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.Filters.apply"><code class="docutils literal notranslate"><span class="pre">Filters.apply()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.Filters.filter"><code class="docutils literal notranslate"><span class="pre">Filters.filter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.Filters.set"><code class="docutils literal notranslate"><span class="pre">Filters.set()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.Filters.time"><code class="docutils literal notranslate"><span class="pre">Filters.time</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core._compat">fava.core._compat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.accounts">fava.core.accounts</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.AccountData"><code class="docutils literal notranslate"><span class="pre">AccountData</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.AccountData.balance_string"><code class="docutils literal notranslate"><span class="pre">AccountData.balance_string</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.AccountData.close_date"><code class="docutils literal notranslate"><span class="pre">AccountData.close_date</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.AccountData.last_entry"><code class="docutils literal notranslate"><span class="pre">AccountData.last_entry</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.AccountData.meta"><code class="docutils literal notranslate"><span class="pre">AccountData.meta</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.AccountData.uptodate_status"><code class="docutils literal notranslate"><span class="pre">AccountData.uptodate_status</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.AccountDict"><code class="docutils literal notranslate"><span class="pre">AccountDict</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.AccountDict.EMPTY"><code class="docutils literal notranslate"><span class="pre">AccountDict.EMPTY</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.AccountDict.all_balance_directives"><code class="docutils literal notranslate"><span class="pre">AccountDict.all_balance_directives()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.AccountDict.load_file"><code class="docutils literal notranslate"><span class="pre">AccountDict.load_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.AccountDict.setdefault"><code class="docutils literal notranslate"><span class="pre">AccountDict.setdefault()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.LastEntry"><code class="docutils literal notranslate"><span class="pre">LastEntry</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.LastEntry.date"><code class="docutils literal notranslate"><span class="pre">LastEntry.date</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.LastEntry.entry_hash"><code class="docutils literal notranslate"><span class="pre">LastEntry.entry_hash</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.balance_string"><code class="docutils literal notranslate"><span class="pre">balance_string()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.get_entry_accounts"><code class="docutils literal notranslate"><span class="pre">get_entry_accounts()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.accounts.uptodate_status"><code class="docutils literal notranslate"><span class="pre">uptodate_status()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.attributes">fava.core.attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.attributes.AttributesModule"><code class="docutils literal notranslate"><span class="pre">AttributesModule</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.attributes.AttributesModule.load_file"><code class="docutils literal notranslate"><span class="pre">AttributesModule.load_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.attributes.AttributesModule.payee_accounts"><code class="docutils literal notranslate"><span class="pre">AttributesModule.payee_accounts()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.attributes.AttributesModule.payee_transaction"><code class="docutils literal notranslate"><span class="pre">AttributesModule.payee_transaction()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.attributes.get_active_years"><code class="docutils literal notranslate"><span class="pre">get_active_years()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.budgets">fava.core.budgets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.budgets.Budget"><code class="docutils literal notranslate"><span class="pre">Budget</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.budgets.BudgetError"><code class="docutils literal notranslate"><span class="pre">BudgetError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.budgets.BudgetModule"><code class="docutils literal notranslate"><span class="pre">BudgetModule</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.budgets.BudgetModule.calculate"><code class="docutils literal notranslate"><span class="pre">BudgetModule.calculate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.budgets.BudgetModule.calculate_children"><code class="docutils literal notranslate"><span class="pre">BudgetModule.calculate_children()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.budgets.BudgetModule.load_file"><code class="docutils literal notranslate"><span class="pre">BudgetModule.load_file()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.budgets.calculate_budget"><code class="docutils literal notranslate"><span class="pre">calculate_budget()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.budgets.calculate_budget_children"><code class="docutils literal notranslate"><span class="pre">calculate_budget_children()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.budgets.parse_budgets"><code class="docutils literal notranslate"><span class="pre">parse_budgets()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.charts">fava.core.charts</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.charts.ChartModule"><code class="docutils literal notranslate"><span class="pre">ChartModule</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.ChartModule.can_plot_query"><code class="docutils literal notranslate"><span class="pre">ChartModule.can_plot_query()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.ChartModule.hierarchy"><code class="docutils literal notranslate"><span class="pre">ChartModule.hierarchy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.ChartModule.interval_totals"><code class="docutils literal notranslate"><span class="pre">ChartModule.interval_totals()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.ChartModule.linechart"><code class="docutils literal notranslate"><span class="pre">ChartModule.linechart()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.ChartModule.net_worth"><code class="docutils literal notranslate"><span class="pre">ChartModule.net_worth()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.ChartModule.query"><code class="docutils literal notranslate"><span class="pre">ChartModule.query()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.charts.DateAndBalance"><code class="docutils literal notranslate"><span class="pre">DateAndBalance</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.DateAndBalance.balance"><code class="docutils literal notranslate"><span class="pre">DateAndBalance.balance</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.DateAndBalance.date"><code class="docutils literal notranslate"><span class="pre">DateAndBalance.date</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.charts.DateAndBalanceWithBudget"><code class="docutils literal notranslate"><span class="pre">DateAndBalanceWithBudget</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.DateAndBalanceWithBudget.account_balances"><code class="docutils literal notranslate"><span class="pre">DateAndBalanceWithBudget.account_balances</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.DateAndBalanceWithBudget.balance"><code class="docutils literal notranslate"><span class="pre">DateAndBalanceWithBudget.balance</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.DateAndBalanceWithBudget.budgets"><code class="docutils literal notranslate"><span class="pre">DateAndBalanceWithBudget.budgets</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.DateAndBalanceWithBudget.date"><code class="docutils literal notranslate"><span class="pre">DateAndBalanceWithBudget.date</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.charts.FavaJSONEncoder"><code class="docutils literal notranslate"><span class="pre">FavaJSONEncoder</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.charts.FavaJSONEncoder.default"><code class="docutils literal notranslate"><span class="pre">FavaJSONEncoder.default()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.charts.inv_to_dict"><code class="docutils literal notranslate"><span class="pre">inv_to_dict()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.charts.setup_json_for_app"><code class="docutils literal notranslate"><span class="pre">setup_json_for_app()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.commodities">fava.core.commodities</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.commodities.CommoditiesModule"><code class="docutils literal notranslate"><span class="pre">CommoditiesModule</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.commodities.CommoditiesModule.load_file"><code class="docutils literal notranslate"><span class="pre">CommoditiesModule.load_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.commodities.CommoditiesModule.name"><code class="docutils literal notranslate"><span class="pre">CommoditiesModule.name()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.conversion">fava.core.conversion</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.conversion.cost"><code class="docutils literal notranslate"><span class="pre">cost()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.conversion.cost_or_value"><code class="docutils literal notranslate"><span class="pre">cost_or_value()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.conversion.get_market_value"><code class="docutils literal notranslate"><span class="pre">get_market_value()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.conversion.units"><code class="docutils literal notranslate"><span class="pre">units()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.documents">fava.core.documents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.documents.filepath_in_document_folder"><code class="docutils literal notranslate"><span class="pre">filepath_in_document_folder()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.documents.is_document_or_import_file"><code class="docutils literal notranslate"><span class="pre">is_document_or_import_file()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.entries_by_type">fava.core.entries_by_type</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.entries_by_type.EntriesByType"><code class="docutils literal notranslate"><span class="pre">EntriesByType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.entries_by_type.group_entries_by_type"><code class="docutils literal notranslate"><span class="pre">group_entries_by_type()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.extensions">fava.core.extensions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.extensions.ExtensionModule"><code class="docutils literal notranslate"><span class="pre">ExtensionModule</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.extensions.ExtensionModule.after_entry_modified"><code class="docutils literal notranslate"><span class="pre">ExtensionModule.after_entry_modified()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.extensions.ExtensionModule.after_insert_entry"><code class="docutils literal notranslate"><span class="pre">ExtensionModule.after_insert_entry()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.extensions.ExtensionModule.after_insert_metadata"><code class="docutils literal notranslate"><span class="pre">ExtensionModule.after_insert_metadata()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.extensions.ExtensionModule.after_write_source"><code class="docutils literal notranslate"><span class="pre">ExtensionModule.after_write_source()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.extensions.ExtensionModule.exts_for_hook"><code class="docutils literal notranslate"><span class="pre">ExtensionModule.exts_for_hook()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.extensions.ExtensionModule.load_file"><code class="docutils literal notranslate"><span class="pre">ExtensionModule.load_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.extensions.ExtensionModule.template_and_extension"><code class="docutils literal notranslate"><span class="pre">ExtensionModule.template_and_extension()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.extensions.extension_entries"><code class="docutils literal notranslate"><span class="pre">extension_entries()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.fava_options">fava.core.fava_options</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions"><code class="docutils literal notranslate"><span class="pre">FavaOptions</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.account_journal_include_children"><code class="docutils literal notranslate"><span class="pre">FavaOptions.account_journal_include_children</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.auto_reload"><code class="docutils literal notranslate"><span class="pre">FavaOptions.auto_reload</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.collapse_pattern"><code class="docutils literal notranslate"><span class="pre">FavaOptions.collapse_pattern</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.conversion_currencies"><code class="docutils literal notranslate"><span class="pre">FavaOptions.conversion_currencies</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.currency_column"><code class="docutils literal notranslate"><span class="pre">FavaOptions.currency_column</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.default_file"><code class="docutils literal notranslate"><span class="pre">FavaOptions.default_file</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.default_page"><code class="docutils literal notranslate"><span class="pre">FavaOptions.default_page</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.fiscal_year_end"><code class="docutils literal notranslate"><span class="pre">FavaOptions.fiscal_year_end</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.import_config"><code class="docutils literal notranslate"><span class="pre">FavaOptions.import_config</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.import_dirs"><code class="docutils literal notranslate"><span class="pre">FavaOptions.import_dirs</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.indent"><code class="docutils literal notranslate"><span class="pre">FavaOptions.indent</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.insert_entry"><code class="docutils literal notranslate"><span class="pre">FavaOptions.insert_entry</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.invert_income_liabilities_equity"><code class="docutils literal notranslate"><span class="pre">FavaOptions.invert_income_liabilities_equity</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.language"><code class="docutils literal notranslate"><span class="pre">FavaOptions.language</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.locale"><code class="docutils literal notranslate"><span class="pre">FavaOptions.locale</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.show_accounts_with_zero_balance"><code class="docutils literal notranslate"><span class="pre">FavaOptions.show_accounts_with_zero_balance</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.show_accounts_with_zero_transactions"><code class="docutils literal notranslate"><span class="pre">FavaOptions.show_accounts_with_zero_transactions</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.show_closed_accounts"><code class="docutils literal notranslate"><span class="pre">FavaOptions.show_closed_accounts</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.sidebar_show_queries"><code class="docutils literal notranslate"><span class="pre">FavaOptions.sidebar_show_queries</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.unrealized"><code class="docutils literal notranslate"><span class="pre">FavaOptions.unrealized</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.upcoming_events"><code class="docutils literal notranslate"><span class="pre">FavaOptions.upcoming_events</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.uptodate_indicator_grey_lookback_days"><code class="docutils literal notranslate"><span class="pre">FavaOptions.uptodate_indicator_grey_lookback_days</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.FavaOptions.use_external_editor"><code class="docutils literal notranslate"><span class="pre">FavaOptions.use_external_editor</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.InsertEntryOption"><code class="docutils literal notranslate"><span class="pre">InsertEntryOption</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.OptionError"><code class="docutils literal notranslate"><span class="pre">OptionError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.parse_option_custom_entry"><code class="docutils literal notranslate"><span class="pre">parse_option_custom_entry()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.fava_options.parse_options"><code class="docutils literal notranslate"><span class="pre">parse_options()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.file">fava.core.file</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.file.EXCL_FLAGS"><code class="docutils literal notranslate"><span class="pre">EXCL_FLAGS</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.file.FileModule"><code class="docutils literal notranslate"><span class="pre">FileModule</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.file.FileModule.get_source"><code class="docutils literal notranslate"><span class="pre">FileModule.get_source()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.file.FileModule.insert_entries"><code class="docutils literal notranslate"><span class="pre">FileModule.insert_entries()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.file.FileModule.insert_metadata"><code class="docutils literal notranslate"><span class="pre">FileModule.insert_metadata()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.file.FileModule.render_entries"><code class="docutils literal notranslate"><span class="pre">FileModule.render_entries()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.file.FileModule.save_entry_slice"><code class="docutils literal notranslate"><span class="pre">FileModule.save_entry_slice()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.file.FileModule.set_source"><code class="docutils literal notranslate"><span class="pre">FileModule.set_source()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.file.find_entry_lines"><code class="docutils literal notranslate"><span class="pre">find_entry_lines()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.file.find_insert_position"><code class="docutils literal notranslate"><span class="pre">find_insert_position()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.file.get_entry_slice"><code class="docutils literal notranslate"><span class="pre">get_entry_slice()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.file.incomplete_sortkey"><code class="docutils literal notranslate"><span class="pre">incomplete_sortkey()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.file.insert_entry"><code class="docutils literal notranslate"><span class="pre">insert_entry()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.file.insert_metadata_in_file"><code class="docutils literal notranslate"><span class="pre">insert_metadata_in_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.file.save_entry_slice"><code class="docutils literal notranslate"><span class="pre">save_entry_slice()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.file.sha256_str"><code class="docutils literal notranslate"><span class="pre">sha256_str()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.filters">fava.core.filters</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.filters.AccountFilter"><code class="docutils literal notranslate"><span class="pre">AccountFilter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.AccountFilter.set"><code class="docutils literal notranslate"><span class="pre">AccountFilter.set()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.filters.AdvancedFilter"><code class="docutils literal notranslate"><span class="pre">AdvancedFilter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.AdvancedFilter.set"><code class="docutils literal notranslate"><span class="pre">AdvancedFilter.set()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.filters.EntryFilter"><code class="docutils literal notranslate"><span class="pre">EntryFilter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.EntryFilter.apply"><code class="docutils literal notranslate"><span class="pre">EntryFilter.apply()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.EntryFilter.set"><code class="docutils literal notranslate"><span class="pre">EntryFilter.set()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterException"><code class="docutils literal notranslate"><span class="pre">FilterException</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxLexer"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxLexer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxLexer.ALL"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxLexer.ALL()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxLexer.ANY"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxLexer.ANY()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxLexer.KEY"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxLexer.KEY()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxLexer.LINK"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxLexer.LINK()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxLexer.RULES"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxLexer.RULES</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxLexer.STRING"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxLexer.STRING()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxLexer.TAG"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxLexer.TAG()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxLexer.lex"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxLexer.lex()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxLexer.regex"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxLexer.regex</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxLexer.tokens"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxLexer.tokens</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_error"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_error()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_expr"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_expr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_expr_all"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_expr_all()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_expr_and"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_expr_and()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_expr_any"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_expr_any()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_expr_negated"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_expr_negated()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_expr_or"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_expr_or()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_expr_parentheses"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_expr_parentheses()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_filter"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_filter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_simple_expr_LINK"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_simple_expr_LINK()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_simple_expr_STRING"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_simple_expr_STRING()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_simple_expr_TAG"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_simple_expr_TAG()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.p_simple_expr_key"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.p_simple_expr_key()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.precedence"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.precedence</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.FilterSyntaxParser.tokens"><code class="docutils literal notranslate"><span class="pre">FilterSyntaxParser.tokens</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.filters.Match"><code class="docutils literal notranslate"><span class="pre">Match</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.Match.match"><code class="docutils literal notranslate"><span class="pre">Match.match</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.filters.TimeFilter"><code class="docutils literal notranslate"><span class="pre">TimeFilter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.TimeFilter.set"><code class="docutils literal notranslate"><span class="pre">TimeFilter.set()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.filters.Token"><code class="docutils literal notranslate"><span class="pre">Token</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.Token.lexer"><code class="docutils literal notranslate"><span class="pre">Token.lexer</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.Token.type"><code class="docutils literal notranslate"><span class="pre">Token.type</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.filters.Token.value"><code class="docutils literal notranslate"><span class="pre">Token.value</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.ingest">fava.core.ingest</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.ingest.FileImportInfo"><code class="docutils literal notranslate"><span class="pre">FileImportInfo</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.ingest.FileImporters"><code class="docutils literal notranslate"><span class="pre">FileImporters</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.ingest.IngestError"><code class="docutils literal notranslate"><span class="pre">IngestError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.ingest.IngestModule"><code class="docutils literal notranslate"><span class="pre">IngestModule</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.ingest.IngestModule.extract"><code class="docutils literal notranslate"><span class="pre">IngestModule.extract()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.ingest.IngestModule.import_data"><code class="docutils literal notranslate"><span class="pre">IngestModule.import_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.ingest.IngestModule.load_file"><code class="docutils literal notranslate"><span class="pre">IngestModule.load_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.ingest.IngestModule.module_path"><code class="docutils literal notranslate"><span class="pre">IngestModule.module_path</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.ingest.file_import_info"><code class="docutils literal notranslate"><span class="pre">file_import_info()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.inventory">fava.core.inventory</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.inventory.CounterInventory"><code class="docutils literal notranslate"><span class="pre">CounterInventory</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.inventory.CounterInventory.add"><code class="docutils literal notranslate"><span class="pre">CounterInventory.add()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.inventory.CounterInventory.add_amount"><code class="docutils literal notranslate"><span class="pre">CounterInventory.add_amount()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.inventory.CounterInventory.add_inventory"><code class="docutils literal notranslate"><span class="pre">CounterInventory.add_inventory()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.inventory.CounterInventory.add_position"><code class="docutils literal notranslate"><span class="pre">CounterInventory.add_position()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.inventory.CounterInventory.is_empty"><code class="docutils literal notranslate"><span class="pre">CounterInventory.is_empty()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.inventory.CounterInventory.reduce"><code class="docutils literal notranslate"><span class="pre">CounterInventory.reduce()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.inventory.SimpleCounterInventory"><code class="docutils literal notranslate"><span class="pre">SimpleCounterInventory</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.inventory.SimpleCounterInventory.add"><code class="docutils literal notranslate"><span class="pre">SimpleCounterInventory.add()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.inventory.SimpleCounterInventory.is_empty"><code class="docutils literal notranslate"><span class="pre">SimpleCounterInventory.is_empty()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.misc">fava.core.misc</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.misc.FavaError"><code class="docutils literal notranslate"><span class="pre">FavaError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.misc.FavaMisc"><code class="docutils literal notranslate"><span class="pre">FavaMisc</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.misc.FavaMisc.load_file"><code class="docutils literal notranslate"><span class="pre">FavaMisc.load_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.misc.FavaMisc.sidebar_links"><code class="docutils literal notranslate"><span class="pre">FavaMisc.sidebar_links</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.misc.FavaMisc.upcoming_events"><code class="docutils literal notranslate"><span class="pre">FavaMisc.upcoming_events</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.misc.align"><code class="docutils literal notranslate"><span class="pre">align()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.misc.sidebar_links"><code class="docutils literal notranslate"><span class="pre">sidebar_links()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.misc.upcoming_events"><code class="docutils literal notranslate"><span class="pre">upcoming_events()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.module_base">fava.core.module_base</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.module_base.FavaModule"><code class="docutils literal notranslate"><span class="pre">FavaModule</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.module_base.FavaModule.load_file"><code class="docutils literal notranslate"><span class="pre">FavaModule.load_file()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.number">fava.core.number</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.number.DecimalFormatModule"><code class="docutils literal notranslate"><span class="pre">DecimalFormatModule</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.number.DecimalFormatModule.load_file"><code class="docutils literal notranslate"><span class="pre">DecimalFormatModule.load_file()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.number.get_locale_format"><code class="docutils literal notranslate"><span class="pre">get_locale_format()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.query_shell">fava.core.query_shell</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell"><code class="docutils literal notranslate"><span class="pre">QueryShell</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.add_help"><code class="docutils literal notranslate"><span class="pre">QueryShell.add_help()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.do_EOF"><code class="docutils literal notranslate"><span class="pre">QueryShell.do_EOF()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.do_exit"><code class="docutils literal notranslate"><span class="pre">QueryShell.do_exit()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.do_quit"><code class="docutils literal notranslate"><span class="pre">QueryShell.do_quit()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.execute_query"><code class="docutils literal notranslate"><span class="pre">QueryShell.execute_query()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.get_pager"><code class="docutils literal notranslate"><span class="pre">QueryShell.get_pager()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.load_file"><code class="docutils literal notranslate"><span class="pre">QueryShell.load_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.noop"><code class="docutils literal notranslate"><span class="pre">QueryShell.noop()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.on_Reload"><code class="docutils literal notranslate"><span class="pre">QueryShell.on_Reload()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.on_RunCustom"><code class="docutils literal notranslate"><span class="pre">QueryShell.on_RunCustom()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.on_Select"><code class="docutils literal notranslate"><span class="pre">QueryShell.on_Select()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.query_shell.QueryShell.query_to_file"><code class="docutils literal notranslate"><span class="pre">QueryShell.query_to_file()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.tree">fava.core.tree</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.tree.SerialisedTreeNode"><code class="docutils literal notranslate"><span class="pre">SerialisedTreeNode</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.SerialisedTreeNode.account"><code class="docutils literal notranslate"><span class="pre">SerialisedTreeNode.account</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.SerialisedTreeNode.balance"><code class="docutils literal notranslate"><span class="pre">SerialisedTreeNode.balance</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.SerialisedTreeNode.balance_children"><code class="docutils literal notranslate"><span class="pre">SerialisedTreeNode.balance_children</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.SerialisedTreeNode.children"><code class="docutils literal notranslate"><span class="pre">SerialisedTreeNode.children</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.tree.Tree"><code class="docutils literal notranslate"><span class="pre">Tree</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.Tree.ancestors"><code class="docutils literal notranslate"><span class="pre">Tree.ancestors()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.Tree.cap"><code class="docutils literal notranslate"><span class="pre">Tree.cap()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.Tree.get"><code class="docutils literal notranslate"><span class="pre">Tree.get()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.Tree.insert"><code class="docutils literal notranslate"><span class="pre">Tree.insert()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.Tree.net_profit"><code class="docutils literal notranslate"><span class="pre">Tree.net_profit()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.tree.TreeNode"><code class="docutils literal notranslate"><span class="pre">TreeNode</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.TreeNode.balance"><code class="docutils literal notranslate"><span class="pre">TreeNode.balance</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.TreeNode.balance_children"><code class="docutils literal notranslate"><span class="pre">TreeNode.balance_children</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.TreeNode.children"><code class="docutils literal notranslate"><span class="pre">TreeNode.children</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.TreeNode.has_txns"><code class="docutils literal notranslate"><span class="pre">TreeNode.has_txns</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.TreeNode.name"><code class="docutils literal notranslate"><span class="pre">TreeNode.name</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.tree.TreeNode.serialise"><code class="docutils literal notranslate"><span class="pre">TreeNode.serialise()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html#module-fava.core.watcher">fava.core.watcher</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.core.html#fava.core.watcher.Watcher"><code class="docutils literal notranslate"><span class="pre">Watcher</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.watcher.Watcher.check"><code class="docutils literal notranslate"><span class="pre">Watcher.check()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.watcher.Watcher.last_checked"><code class="docutils literal notranslate"><span class="pre">Watcher.last_checked</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.core.html#fava.core.watcher.Watcher.update"><code class="docutils literal notranslate"><span class="pre">Watcher.update()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/fava.ext.html">fava.ext</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.ext.html#fava.ext.FavaExtensionBase"><code class="docutils literal notranslate"><span class="pre">FavaExtensionBase</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.ext.html#fava.ext.FavaExtensionBase.after_entry_modified"><code class="docutils literal notranslate"><span class="pre">FavaExtensionBase.after_entry_modified()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.ext.html#fava.ext.FavaExtensionBase.after_insert_entry"><code class="docutils literal notranslate"><span class="pre">FavaExtensionBase.after_insert_entry()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.ext.html#fava.ext.FavaExtensionBase.after_insert_metadata"><code class="docutils literal notranslate"><span class="pre">FavaExtensionBase.after_insert_metadata()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.ext.html#fava.ext.FavaExtensionBase.after_write_source"><code class="docutils literal notranslate"><span class="pre">FavaExtensionBase.after_write_source()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.ext.html#fava.ext.FavaExtensionBase.config"><code class="docutils literal notranslate"><span class="pre">FavaExtensionBase.config</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.ext.html#fava.ext.FavaExtensionBase.report_title"><code class="docutils literal notranslate"><span class="pre">FavaExtensionBase.report_title</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.ext.html#fava.ext.FavaExtensionError"><code class="docutils literal notranslate"><span class="pre">FavaExtensionError</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.ext.html#fava.ext.find_extensions"><code class="docutils literal notranslate"><span class="pre">find_extensions()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.ext.html#module-fava.ext.auto_commit">fava.ext.auto_commit</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.ext.html#fava.ext.auto_commit.AutoCommit"><code class="docutils literal notranslate"><span class="pre">AutoCommit</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.ext.html#fava.ext.auto_commit.AutoCommit.after_entry_modified"><code class="docutils literal notranslate"><span class="pre">AutoCommit.after_entry_modified()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.ext.html#fava.ext.auto_commit.AutoCommit.after_insert_entry"><code class="docutils literal notranslate"><span class="pre">AutoCommit.after_insert_entry()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.ext.html#fava.ext.auto_commit.AutoCommit.after_insert_metadata"><code class="docutils literal notranslate"><span class="pre">AutoCommit.after_insert_metadata()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.ext.html#fava.ext.auto_commit.AutoCommit.after_write_source"><code class="docutils literal notranslate"><span class="pre">AutoCommit.after_write_source()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/fava.ext.portfolio_list.html">fava.ext.portfolio_list</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.ext.portfolio_list.html#fava.ext.portfolio_list.PortfolioList"><code class="docutils literal notranslate"><span class="pre">PortfolioList</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.ext.portfolio_list.html#fava.ext.portfolio_list.PortfolioList.portfolio_accounts"><code class="docutils literal notranslate"><span class="pre">PortfolioList.portfolio_accounts()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.ext.portfolio_list.html#fava.ext.portfolio_list.PortfolioList.report_title"><code class="docutils literal notranslate"><span class="pre">PortfolioList.report_title</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/fava.help.html">fava.help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/fava.plugins.html">fava.plugins</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.plugins.html#module-fava.plugins.link_documents">fava.plugins.link_documents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.plugins.html#fava.plugins.link_documents.DocumentError"><code class="docutils literal notranslate"><span class="pre">DocumentError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.plugins.html#fava.plugins.link_documents.link_documents"><code class="docutils literal notranslate"><span class="pre">link_documents()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.plugins.html#module-fava.plugins.tag_discovered_documents">fava.plugins.tag_discovered_documents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.plugins.html#fava.plugins.tag_discovered_documents.tag_discovered_documents"><code class="docutils literal notranslate"><span class="pre">tag_discovered_documents()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/fava.util.html">fava.util</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#fava.util.filter_api_changed"><code class="docutils literal notranslate"><span class="pre">filter_api_changed()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#fava.util.listify"><code class="docutils literal notranslate"><span class="pre">listify()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#fava.util.next_key"><code class="docutils literal notranslate"><span class="pre">next_key()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#fava.util.pairwise"><code class="docutils literal notranslate"><span class="pre">pairwise()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#fava.util.resource_path"><code class="docutils literal notranslate"><span class="pre">resource_path()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#fava.util.send_file_inline"><code class="docutils literal notranslate"><span class="pre">send_file_inline()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#fava.util.setup_logging"><code class="docutils literal notranslate"><span class="pre">setup_logging()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#fava.util.simple_wsgi"><code class="docutils literal notranslate"><span class="pre">simple_wsgi()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#fava.util.slugify"><code class="docutils literal notranslate"><span class="pre">slugify()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#fava.util.timefunc"><code class="docutils literal notranslate"><span class="pre">timefunc()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#module-fava.util.date">fava.util.date</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.date.FiscalYearEnd"><code class="docutils literal notranslate"><span class="pre">FiscalYearEnd</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.date.Interval"><code class="docutils literal notranslate"><span class="pre">Interval</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.date.Interval.DAY"><code class="docutils literal notranslate"><span class="pre">Interval.DAY</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.date.Interval.MONTH"><code class="docutils literal notranslate"><span class="pre">Interval.MONTH</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.date.Interval.QUARTER"><code class="docutils literal notranslate"><span class="pre">Interval.QUARTER</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.date.Interval.WEEK"><code class="docutils literal notranslate"><span class="pre">Interval.WEEK</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.date.Interval.YEAR"><code class="docutils literal notranslate"><span class="pre">Interval.YEAR</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.date.Interval.format_date"><code class="docutils literal notranslate"><span class="pre">Interval.format_date()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.date.Interval.format_date_filter"><code class="docutils literal notranslate"><span class="pre">Interval.format_date_filter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.date.Interval.get"><code class="docutils literal notranslate"><span class="pre">Interval.get()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.date.Interval.label"><code class="docutils literal notranslate"><span class="pre">Interval.label</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.date.days_in_daterange"><code class="docutils literal notranslate"><span class="pre">days_in_daterange()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.date.get_fiscal_period"><code class="docutils literal notranslate"><span class="pre">get_fiscal_period()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.date.get_next_interval"><code class="docutils literal notranslate"><span class="pre">get_next_interval()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.date.interval_ends"><code class="docutils literal notranslate"><span class="pre">interval_ends()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.date.month_offset"><code class="docutils literal notranslate"><span class="pre">month_offset()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.date.number_of_days_in_period"><code class="docutils literal notranslate"><span class="pre">number_of_days_in_period()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.date.parse_date"><code class="docutils literal notranslate"><span class="pre">parse_date()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.date.parse_fye_string"><code class="docutils literal notranslate"><span class="pre">parse_fye_string()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.date.substitute"><code class="docutils literal notranslate"><span class="pre">substitute()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#module-fava.util.excel">fava.util.excel</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.excel.to_csv"><code class="docutils literal notranslate"><span class="pre">to_csv()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.excel.to_excel"><code class="docutils literal notranslate"><span class="pre">to_excel()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#module-fava.util.ranking">fava.util.ranking</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.ranking.ExponentialDecayRanker"><code class="docutils literal notranslate"><span class="pre">ExponentialDecayRanker</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.ranking.ExponentialDecayRanker.get"><code class="docutils literal notranslate"><span class="pre">ExponentialDecayRanker.get()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.ranking.ExponentialDecayRanker.list"><code class="docutils literal notranslate"><span class="pre">ExponentialDecayRanker.list</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.ranking.ExponentialDecayRanker.rate"><code class="docutils literal notranslate"><span class="pre">ExponentialDecayRanker.rate</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.ranking.ExponentialDecayRanker.scores"><code class="docutils literal notranslate"><span class="pre">ExponentialDecayRanker.scores</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.ranking.ExponentialDecayRanker.sort"><code class="docutils literal notranslate"><span class="pre">ExponentialDecayRanker.sort()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api/fava.util.html#fava.util.ranking.ExponentialDecayRanker.update"><code class="docutils literal notranslate"><span class="pre">ExponentialDecayRanker.update()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#module-fava.util.sets">fava.util.sets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/fava.util.html#fava.util.sets.add_to_set"><code class="docutils literal notranslate"><span class="pre">add_to_set()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html#module-fava.util.typing">fava.util.typing</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="index.html">
+    <img class="logo" src="_static/logo.png" alt="Logo"/>
+    
+    <h1 class="logo logo-name">Fava</h1>
+    
+  </a>
+</p>
+
+
+
+<p class="blurb">Web interface for <a href="http://furius.ca/beancount/">Beancount</a></p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development.html">Development</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.html">fava</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.core.html">fava.core</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.ext.html">fava.ext</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.ext.portfolio_list.html">fava.ext.portfolio_list</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.help.html">fava.help</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.plugins.html">fava.plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/fava.util.html">fava.util</a></li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="https://github.com/beancount/fava">fava @ GitHub</a></li>
+    
+    <li class="toctree-l1"><a href="https://gitter.im/beancount/fava">Chat</a></li>
+    
+    <li class="toctree-l1"><a href="https://github.com/beancount/fava/issues">Issue Tracker</a></li>
+    
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Dominik Aumayr.
+      
+      |
+      <a href="_sources/api.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
